@@ -1,4 +1,4 @@
-from Project.raw_data import X
+from Project.Data.raw_data import X
 
 #CHECKING FOR NA
 nan_counts = X.isnull().sum()
